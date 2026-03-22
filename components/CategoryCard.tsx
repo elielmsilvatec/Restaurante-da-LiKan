@@ -3,7 +3,7 @@ import { Card } from '@/components/ui/card';
 
 interface CategoryCardProps {
   name: string;
-  icon: LucideIcon;
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
   onClick?: () => void;
 }
 
