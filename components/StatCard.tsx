@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 interface StatCardProps {
   title: string;
   value: string;
-  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  icon: React.ComponentType<import("lucide-react").LucideProps>;
   iconColor?: string;
 }
 

@@ -3,7 +3,7 @@ import { Card } from '@/components/ui/card';
 
 interface CategoryCardProps {
   name: string;
-  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  icon: React.ComponentType<import("lucide-react").LucideProps>;
   onClick?: () => void;
 }
 
